@@ -23,8 +23,16 @@ npm list algosdk # should see something like this =>  algosdk@2.7.0
 ## `Generating account details`
 
 ```sh
+cd token
 node CreateAccount.js
 # The `passphrase/mnemonic`, `privateKey` and `address` will be generated
+```
+
+## `Creating asset`
+
+```sh
+cd token
+node CreateAsset.js
 ```
 
 ---------
