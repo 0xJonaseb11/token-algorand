@@ -20,6 +20,13 @@ npm install algosdk
 npm list algosdk # should see something like this =>  algosdk@2.7.0
 ```
 
+## `Generating account details`
+
+```sh
+node CreateAccount.js
+# The `passphrase/mnemonic`, `privateKey` and `address` will be generated
+```
+
 ---------
 
 @0xJonaseb11
