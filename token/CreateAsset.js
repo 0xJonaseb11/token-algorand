@@ -31,8 +31,8 @@ const deployToken = async () => {
         from: address,
         suggestedParams,
         defaultFrozen: false,
-        unitName: "Pepe", // symbol
-        assetName: "Pepe coin", // name of the asset
+        unitName: "Jaz", // symbol
+        assetName: "Jaz coin", // name of the asset
         manager: address,
         reserve: address,
         freeze: address,

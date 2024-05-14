@@ -35,6 +35,25 @@ cd token
 node CreateAsset.js
 ```
 
+`After running task, you should see something like this`
+
+```sh
+Creating token Metadata....
+Token deployed successfully!!
+Asset ID created: 663539668
+Asset Url: https://testnet.explorer.perawallet.app/asset/663539668
+```
+
+```sh
+# click the token link in the console
+# It is in format of this
+https://testnet.explorer.perawallet.app/asset/<Your_assetID>
+
+```
+## `After, click the token link and you should see something like this`
+
+![Jaz coin algorand token ](image.png)
+
 ---------
 
 @0xJonaseb11
