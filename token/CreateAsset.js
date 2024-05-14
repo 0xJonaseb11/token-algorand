@@ -1,5 +1,6 @@
 const algosdk = require("algosdk");
 // const { AlgodClient } = require("algosdk/dist/types/client/v2/algod/algod");
+const fetch = require("node-fetch-cjs")
 const fs = require("fs");
 
 const token = "";
@@ -9,7 +10,7 @@ const port = 443;
 const client = new algosdk.Algodv2(token, server, port);
 
 // deploy token
-const deployToken = async() => {
+const deployToken = async( ) => {
     
       // Read the account details from JSON
     const accountData = JSON.parse(fs.readFileSync('account.json', 'utf-8'));
